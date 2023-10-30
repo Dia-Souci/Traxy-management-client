@@ -1,0 +1,78 @@
+.Landing-Main-container{
+    
+    background-image: url('../../images/LandingBackGround.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.landing-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 150px;
+
+}
+.Landing-title{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.landing-buttons-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.landing-nav-button{
+    width: 35%;
+    background-color: #7058A1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition: all ease-in-out 1.1s;
+
+}
+.landing-nav-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.black-infoSection2{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    margin-top: 280px;
+}
+.black-img-container{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.black-infoSection2 img{
+    width: 90%;
+    height: 90%;
+}

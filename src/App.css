@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="number"],
+input[type="date"],
+input[type='tel'],
+input[type='email'] {
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    padding-left: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+textarea{
+  border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #fff;
+    padding-left: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.anchorItem{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+.anchorItem:active{
+  text-decoration: none;
+}
+.anchorItem:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.anchorItem:visited{
+  text-decoration: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

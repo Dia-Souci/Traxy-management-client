@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3dc7e27c.css",
+    "main.js": "/static/js/main.4e5f689c.js",
+    "static/js/703.5c2d4c61.chunk.js": "/static/js/703.5c2d4c61.chunk.js",
+    "static/js/598.f71738de.chunk.js": "/static/js/598.f71738de.chunk.js",
+    "static/media/LoginBackGround.png": "/static/media/LoginBackGround.23b4acc81cdbc7d9cda3.png",
+    "static/media/LandingBackGround.png": "/static/media/LandingBackGround.265a47c108fb73f67a9c.png",
+    "static/media/Logo contrat@1,5x 2.svg": "/static/media/Logo contrat@1,5x 2.eabb7d948885fef35cf80f2a393d452c.svg",
+    "static/media/Logo contrat@1,5x 1.svg": "/static/media/Logo contrat@1,5x 1.706d14c691eccd6b9d1b028169cfeea6.svg",
+    "static/media/coordo.png": "/static/media/coordo.e5c7e739589730645720.png",
+    "static/media/LogoBlack.png": "/static/media/LogoBlack.921316491a5102a1f0bd.png",
+    "index.html": "/index.html",
+    "main.3dc7e27c.css.map": "/static/css/main.3dc7e27c.css.map",
+    "main.4e5f689c.js.map": "/static/js/main.4e5f689c.js.map",
+    "703.5c2d4c61.chunk.js.map": "/static/js/703.5c2d4c61.chunk.js.map",
+    "598.f71738de.chunk.js.map": "/static/js/598.f71738de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dc7e27c.css",
+    "static/js/main.4e5f689c.js"
+  ]
+}
