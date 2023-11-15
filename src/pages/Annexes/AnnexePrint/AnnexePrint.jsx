@@ -15,7 +15,10 @@ import { useLogout } from '../../../Hooks/useLogout'
 function AnnexePrint() {
     const [imported , setImported] = useState({})
     const {logout} = useLogout()
-    
+    const date = new Date()
+    const day = date.getDate()
+    const month = date.getMonth()+1
+    const year = date.getFullYear()
     const [carData , setCarData]= useState([])
     const customerID = localStorage.getItem('customerID')
     const {user} = useAuthContext()
@@ -447,7 +450,7 @@ function AnnexePrint() {
                     </div>
                     <div className="Datetitle">
                         <p className='text-cars'>
-                            <strong className='title-cars'> Date : </strong> 17/02/2000
+                            <strong className='title-cars'> Date : </strong> {day}/{month}/{year}
                         </p>
 
                     </div>
