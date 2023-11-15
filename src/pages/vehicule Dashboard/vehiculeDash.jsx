@@ -10,6 +10,14 @@ import { useAuthContext } from '../../Hooks/useAuthContext'
 
 
 function VehiculeDash() {
+    const dateFormater =(date) =>{
+        const dateForm = new Date(date)
+        const day = dateForm.getDate()
+        const month = dateForm.getMonth()+1
+        const year = dateForm.getFullYear()
+
+        return ''+day+'/'+month+'/'+year
+    }
     const [vehiculeData , setvehiculeData] = new useState([])
     const {logout} = useLogout()
     const navigate = useNavigate()
@@ -143,7 +151,7 @@ function VehiculeDash() {
                                     {item.num_chassis}
                                 </div>
                                 <div className="tableElem2 twoGridPlaces">
-                                    {item.activation_date}
+                                    {dateFormater(item.activation_date)}
                                 </div>
                                 <div className="tableElem2 twoGridPlaces">
                                     {item.activation_timer}
