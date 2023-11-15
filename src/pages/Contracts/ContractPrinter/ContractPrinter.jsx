@@ -11,6 +11,14 @@ import { Link } from 'react-router-dom'
 
 
 function ContractPrinter() {
+    const dateFormater =(date) =>{
+        const dateForm = new Date(date)
+        const day = dateForm.getDate()
+        const month = dateForm.getMonth()+1
+        const year = dateForm.getFullYear()
+
+        return ''+day+'/'+month+'/'+year
+    }
     const {user} = useAuthContext()
     const [imported , setImported] = useState({})
     const customerID = localStorage.getItem('customerID')
@@ -181,7 +189,7 @@ function ContractPrinter() {
                         Date de création
                     </div>
                     <div className="grey-input-part" id="long">
-                    {imported.date_creation_rc}
+                    {dateFormater(imported.date_creation_rc)}
                     </div>
                 </div>
                 <div className="contractor-infos toThree">
@@ -341,7 +349,7 @@ function ContractPrinter() {
                         Date de naissance
                     </div>
                     <div className="grey-input-part" id="long">
-                    {imported.date_naissance}
+                    {dateFormater(imported.date_naissance)}
                     </div>
                 </div>
                 <div className="contractor-infos tillLast">
@@ -394,7 +402,7 @@ function ContractPrinter() {
                             Date d’émission
                         </div>
                         <div className="grey-input-part" id="long">
-                        {imported.date_emition_carte_national}
+                        {dateFormater(imported.date_emition_carte_national)}
                         </div>
                     </div>
                     <div className="contractor-infos">

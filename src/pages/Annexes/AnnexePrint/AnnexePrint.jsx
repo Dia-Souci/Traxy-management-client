@@ -512,7 +512,7 @@ function AnnexePrint() {
                                 {item.matricule}
                             </div>
                             <div className="TRow twoSpans lighter">
-                                {item.activation_date}
+                                {dateFormater(item.activation_date)}
                             </div>
                             <div className="TRow twoSpans">
                                 {item.plan}
