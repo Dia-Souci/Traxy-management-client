@@ -13,6 +13,14 @@ import { useLogout } from '../../../Hooks/useLogout'
 
 
 function AnnexePrint() {
+    const dateFormater =(date) =>{
+        const dateForm = new Date(date)
+        const day = dateForm.getDate()
+        const month = dateForm.getMonth()+1
+        const year = dateForm.getFullYear()
+
+        return ''+day+'/'+month+'/'+year
+    }
     const [imported , setImported] = useState({})
     const {logout} = useLogout()
     const date = new Date()
@@ -226,7 +234,7 @@ function AnnexePrint() {
                             Date d’émission
                         </div>
                         <div className="grey-input-part" id="long">
-                        {imported.date_emition_carte_national}
+                        {dateFormater(imported.date_emition_carte_national)}
                         </div>
                     </div>
                     <div className="contractor-infos">
