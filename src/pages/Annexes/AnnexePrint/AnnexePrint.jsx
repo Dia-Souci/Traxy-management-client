@@ -44,11 +44,10 @@ function AnnexePrint() {
             }
         }
         if(user){
-            console.log('test')
             fetchUserData()
         }
         
-    },[imported , setCarData , user])
+    },[imported,setImported,carData , setCarData , user])
   return (
     <div>
         <nav className='Navbar-traxy-container'>
