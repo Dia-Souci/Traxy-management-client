@@ -77,7 +77,7 @@ function CreateCustomerVehicule() {
                 setActivation_date('')
                 setPlan(0)
                 setError(null)
-                
+                setTimeout(4000)
                 Navigate('/customer-dashboard')
             }
         }else{
