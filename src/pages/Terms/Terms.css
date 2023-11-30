@@ -1,13 +1,15 @@
 
 .Terms-Conditions{
-    margin: 10px;
+    margin: 15px 20px;
     font-weight: 400;
 }
 
 .terms{
-    font-size: 4px;
+    font-size: 5.5px;
 }
-
+.marg{
+    margin-top: 2px;
+}
 
 .entete{
     display: flex;
@@ -38,10 +40,12 @@
 }
 .bold{
     font-weight: 600;
+    font-size: 7px;
 }
 .separation{
+    margin: 25px 0 25px;
     display: flex;
-
+    align-items: flex-end;
 }
 .separationTitle{
     font-family: Montserrat;
@@ -61,6 +65,7 @@
 }
 
 .footer-section{
+    margin-top: 70px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
