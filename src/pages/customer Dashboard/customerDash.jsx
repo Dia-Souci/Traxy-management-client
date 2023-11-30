@@ -237,7 +237,7 @@ function CustomerDash() {
                             <button>Edit Customer</button>
                         </Link>
                         <Link to='/Terms' style={{ textDecoration: 'none' }}>
-                            <button>Interventions</button>
+                            <button>Terms</button>
                         </Link>
                     </div>
                     <button className="close" onClick={closeModal}>
