@@ -5,10 +5,10 @@ import Black from '../../images/BlackLogoTerms.svg'
 import Line from '../../images/Line.svg'
 import Contact from '../../images/contact.svg'
 import html2pdf from 'html2pdf.js';
-import NavLogo from '../../../images/NavbarLogo.png'
+import NavLogo from '../../images/NavbarLogo.png'
 import { Link } from 'react-router-dom'
-import { useAuthContext } from '../../../Hooks/useAuthContext'
-import { useLogout } from '../../../Hooks/useLogout'
+import { useAuthContext } from '../../Hooks/useAuthContext'
+import { useLogout } from '../../Hooks/useLogout'
 
 const Terms = () => {
     const {user} = useAuthContext()
