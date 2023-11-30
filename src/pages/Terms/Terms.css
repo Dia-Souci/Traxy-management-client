@@ -1,16 +1,10 @@
-*{
-    padding : 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Montserrat sans-serif;
-}
 
 .Terms-Conditions{
     margin: 10px;
     font-weight: 400;
 }
 
-p{
+.terms{
     font-size: 4px;
 }
 
