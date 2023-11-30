@@ -21,6 +21,8 @@ import CustomerVehiculeDash from './pages/CustomerVehiculeDash/CustomerVehiculeD
 import CreateCustomerVehicule from './pages/Create/customervehicule/CreateCustomerVehicule';
 import { useAuthContext } from './Hooks/useAuthContext';
 import CustomerUpdate from './pages/update/customer/customerUpdate';
+import Terms from './pages/Terms/Terms';
+
 
 function App() {
   const {user} = useAuthContext()
@@ -106,6 +108,10 @@ function App() {
             <Route
               path='/CreatevehiculeForCustomer'
               element={user ? < CreateCustomerVehicule /> : <Navigate to='/' />}
+            />
+            <Route
+              path='/Terms'
+              element={user ? <Terms/> : <Navigate to='/' />}
             />
 
       </Routes>

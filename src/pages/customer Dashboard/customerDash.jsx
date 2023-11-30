@@ -236,6 +236,9 @@ function CustomerDash() {
                         <Link to={`/Updatecustomer`} className={`${admin ? '' : 'hidden'}`} style={{ textDecoration: 'none' }}>
                             <button>Edit Customer</button>
                         </Link>
+                        <Link to='/Terms' style={{ textDecoration: 'none' }}>
+                            <button>Interventions</button>
+                        </Link>
                     </div>
                     <button className="close" onClick={closeModal}>
                         <i className="fa-solid fa-x"></i>

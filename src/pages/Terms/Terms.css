@@ -1,0 +1,73 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat sans-serif;
+}
+
+.Terms-Conditions{
+    margin: 10px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 4px;
+}
+
+
+.entete{
+    display: flex;
+    width: 100;
+    justify-content:space-between;
+    align-items: center;
+}
+.big{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.medium{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+.small{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.body-content{
+    margin: 20px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.bold{
+    font-weight: 600;
+}
+.separation{
+    display: flex;
+
+}
+.separationTitle{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.down-content{
+    margin: 20px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.footer-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
