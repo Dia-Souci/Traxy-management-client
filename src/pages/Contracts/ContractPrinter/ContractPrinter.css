@@ -1,0 +1,78 @@
+/* TERMS CSS ADDED */
+
+
+
+
+.Terms-Conditions{
+    margin: 15px 20px;
+    font-weight: 400;
+}
+
+.terms{
+    font-size: 5.5px;
+}
+.marg{
+    margin-top: 3px;
+}
+
+.entete{
+    display: flex;
+    width: 100;
+    justify-content:space-between;
+    align-items: center;
+}
+.big{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.medium{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+.small{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.body-content{
+    margin: 20px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 7px;
+}
+.separation{
+    margin: 25px 0 25px;
+    display: flex;
+    align-items: flex-end;
+}
+.separationTitle{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.down-content{
+    margin: 20px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.footer-section{
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* TERMS END */

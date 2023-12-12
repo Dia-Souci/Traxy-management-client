@@ -69,7 +69,7 @@ function AnnexeForm() {
           newValue = value;
         }
         
-        if (( name === 'mondataire') && (newValue === true)){
+        if (( name === 'representation_legale') && (newValue === true)){
             setFormData((prevData) => ({
                 ...prevData,
               [name]: newValue,
@@ -376,19 +376,19 @@ function AnnexeForm() {
                 <div className="type-contrat-item padd-cont">
                     <p>Offre Basic</p>
                     <div className="check-container">
-                        <input type="checkbox"  onChange = {handleChange} name="offre_basic" id="Offre1"  value="Passeport"/>
+                        <input type="checkbox"  onChange = {handleChange} name="offre_basic" id="Offre1"  value=""/>
                     </div>    
                 </div>
                 <div className="type-contrat-item padd-cont">
                     <p>Offre Standard</p>
                     <div className="check-container">
-                        <input type="checkbox"  onChange = {handleChange}name="offre_standard" id="Offre2"  value="Passeport"/>
+                        <input type="checkbox"  onChange = {handleChange}name="offre_standard" id="Offre2"  value=""/>
                     </div>    
                 </div>
                 <div className="type-contrat-item padd-cont" >
                     <p>Offre Professionel</p>
                     <div className="check-container">
-                        <input type="checkbox"  onChange = {handleChange}name="offre_professionel" id="Offre3"  value="Passeport"/>
+                        <input type="checkbox"  onChange = {handleChange}name="offre_professionel" id="Offre3"  value=""/>
                     </div>    
                 </div>
             </div>
